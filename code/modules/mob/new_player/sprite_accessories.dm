@@ -1318,12 +1318,13 @@
 */
 
 /datum/sprite_accessory/extra
+	species_allowed = list("Human","Synthetic","Early Synthetic", "Vat-Grown", "Vatborn")
 	icon = 'icons/mob/Human_face.dmi'
-	gender = MALE
 
 /datum/sprite_accessory/extra/broken_man
 	name = "Broken Man"
 	icon_state = "extra_brokenman"
+	do_colouration = FALSE
 
 //skin styles - WIP
 //going to have to re-integrate this with surgery
