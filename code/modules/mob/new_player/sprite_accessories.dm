@@ -1309,6 +1309,10 @@
 	name = "Broken Man"
 	icon_state = "facial_brokenman"
 
+/datum/sprite_accessory/extra/broken_man
+	name = "Broken Man"
+	icon_state = "extra_brokenman"
+
 //skin styles - WIP
 //going to have to re-integrate this with surgery
 //let the icon_state hold an icon preview for now

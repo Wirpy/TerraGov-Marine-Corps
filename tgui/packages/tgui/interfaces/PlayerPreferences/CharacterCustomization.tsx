@@ -131,8 +131,9 @@ export const CharacterCustomization = (props, context) => {
                     <Button icon="edit" onClick={() => act('grad_color')} />
                   </>
                 }
-              />
-                            </LabeledList.Item>
+               />
+             ))}
+              </LabeledList.Item>
               <SelectFieldPreference
                 label={'Extra Style'}
                 value={'e_style'}
