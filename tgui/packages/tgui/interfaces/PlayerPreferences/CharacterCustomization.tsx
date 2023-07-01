@@ -11,6 +11,9 @@ export const CharacterCustomization = (props, context) => {
     r_hair,
     g_hair,
     b_hair,
+    r_extra,
+    g_extra,
+    b_extra,
     r_grad,
     g_grad,
     b_grad,
@@ -142,7 +145,7 @@ export const CharacterCustomization = (props, context) => {
                 extra={
                   <>
                     <ColorBox color={rgbToHex(r_extra, g_extra, b_extra)} mr={1} />
-                    <Button icon="edit" onClick={() => act('haircolor')} />
+                    <Button icon="edit" onClick={() => act('extracolor')} />
                   </>
                 }
               />
