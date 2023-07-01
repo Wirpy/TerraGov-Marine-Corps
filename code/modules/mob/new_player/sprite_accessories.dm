@@ -1309,7 +1309,14 @@
 	name = "Broken Man"
 	icon_state = "facial_brokenman"
 
-//Extra facial styles n stuff
+/*
+///////////////////////////////////
+/  =---------------------------=  /
+/  == Extra Face Definitions ==  /
+/  =---------------------------=  /
+///////////////////////////////////
+*/
+
 /datum/sprite_accessory/extra
 	icon = 'icons/mob/Human_face.dmi'
 	gender = MALE
