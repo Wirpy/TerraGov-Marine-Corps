@@ -41,6 +41,9 @@
 			data["r_hair"] = r_hair
 			data["g_hair"] = g_hair
 			data["b_hair"] = b_hair
+			data["r_extra"] = r_extra
+			data["g_extra"] = g_extra
+			data["b_extra"] = b_extra
 			data["r_grad"] = r_grad
 			data["g_grad"] = g_grad
 			data["b_grad"] = b_grad

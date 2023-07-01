@@ -106,6 +106,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/g_facial = 0
 	var/b_facial = 0
 
+	//Extra_style
+	var/e_style = "None"
+	var/r_extra = 0
+	var/g_extra = 0
+	var/b_extra = 0
+
 	//Eyes
 	var/r_eyes = 0
 	var/g_eyes = 0

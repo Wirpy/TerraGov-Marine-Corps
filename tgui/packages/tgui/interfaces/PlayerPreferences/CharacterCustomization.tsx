@@ -129,6 +129,23 @@ export const CharacterCustomization = (props, context) => {
                   </>
                 }
               />
+                            </LabeledList.Item>
+              <SelectFieldPreference
+                label={'Extra Style'}
+                value={'e_style'}
+                action={'extrastyle'}
+              />
+              <TextFieldPreference
+                label={'Extra Color'}
+                value={rgbToHex(r_extra, g_extra, b_extra)}
+                noAction
+                extra={
+                  <>
+                    <ColorBox color={rgbToHex(r_extra, g_extra, b_extra)} mr={1} />
+                    <Button icon="edit" onClick={() => act('haircolor')} />
+                  </>
+                }
+              />
               <TextFieldPreference
                 label={'Eye Color'}
                 value={rgbToHex(r_eyes, g_eyes, b_eyes)}

@@ -10,6 +10,9 @@ type CharacterCustomizationData = {
   r_hair: number;
   g_hair: number;
   b_hair: number;
+  r_extra: number;
+  g_extra: number;
+  b_extra: number;
   r_grad: number;
   g_grad: number;
   b_grad: number;
