@@ -499,7 +499,7 @@
 					continue
 
 				valid_extrastyles[extrastyle] = GLOB.extra_styles_list[extrastyle]
-			var/choice = tgui_input_list(ui.user, "What hair style do you want?", "Hair style choice", valid_hairstyles)
+			var/choice = tgui_input_list(ui.user, "What hair style do you want?", "Hair style choice", valid_extrastyles)
 			if(!choice)
 				return
 			h_style = choice
