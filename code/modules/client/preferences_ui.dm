@@ -43,7 +43,7 @@
 			data["b_hair"] = b_hair
 			data["r_extra"] = r_extra
 			data["g_extra"] = g_extra
-			data["b_extra"] = b_hair
+			data["b_extra"] = b_extra
 			data["r_grad"] = r_grad
 			data["g_grad"] = g_grad
 			data["b_grad"] = b_grad
@@ -71,6 +71,7 @@
 			data["h_style"] = h_style
 			data["grad_style"] = grad_style
 			data["f_style"] = f_style
+			data["e_style"] = e_style
 		if(BACKGROUND_INFORMATION)
 			data["slot"] = default_slot
 			data["flavor_text"] = flavor_text
