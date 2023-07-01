@@ -1309,6 +1309,11 @@
 	name = "Broken Man"
 	icon_state = "facial_brokenman"
 
+//Extra facial styles n stuff
+/datum/sprite_accessory/extra
+	icon = 'icons/mob/Human_face.dmi'
+	gender = MALE
+
 /datum/sprite_accessory/extra/broken_man
 	name = "Broken Man"
 	icon_state = "extra_brokenman"

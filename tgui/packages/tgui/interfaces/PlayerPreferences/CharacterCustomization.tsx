@@ -132,8 +132,6 @@ export const CharacterCustomization = (props, context) => {
                   </>
                 }
                />
-             ))}
-              </LabeledList.Item>
               <SelectFieldPreference
                 label={'Extra Style'}
                 value={'e_style'}
