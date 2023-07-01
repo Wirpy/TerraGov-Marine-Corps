@@ -7,6 +7,7 @@ type PlayerPreferencesData = {
 type CharacterCustomizationData = {
   random_name: number;
   h_style: string;
+  e_style: string;
   r_hair: number;
   g_hair: number;
   b_hair: number;
