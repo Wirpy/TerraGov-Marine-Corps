@@ -491,6 +491,27 @@
 			g_facial = hex2num(copytext(facial_color, 4, 6))
 			b_facial = hex2num(copytext(facial_color, 6, 8))
 
+		if("extrastyle")
+			var/list/valid_extrastyles = list()
+			for(var/extrastyle in GLOB.extra_styles_list)
+				var/datum/sprite_accessory/S = GLOB.extra_styles_list[extrastyle]
+				if(!(species in S.species_allowed))
+					continue
+
+				valid_extrastyles[extrastyle] = GLOB.extra_styles_list[extrastyle]
+			var/choice = tgui_input_list(ui.user, "What hair style do you want?", "Hair style choice", valid_hairstyles)
+			if(!choice)
+				return
+			h_style = choice
+
+		if("extracolor")
+			var/new_color = input(user, "Choose your character's hair colour:", "Hair Color") as null|color
+			if(!new_color)
+				return
+			r_extra = hex2num(copytext(new_color, 2, 4))
+			g_extra = hex2num(copytext(new_color, 4, 6))
+			b_extra = hex2num(copytext(new_color, 6, 8))
+
 		if("eyecolor")
 			var/eyecolor = input(user, "Choose your character's eye colour:", "Character Preference") as null|color
 			if(!eyecolor)

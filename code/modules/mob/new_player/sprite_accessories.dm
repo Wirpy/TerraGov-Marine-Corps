@@ -1326,6 +1326,10 @@
 	icon_state = "extra_brokenman"
 	do_colouration = FALSE
 
+/datum/sprite_accessory/extra/eighties
+	name = "80's"
+	icon_state = "extra_hair_80s_s"
+
 //skin styles - WIP
 //going to have to re-integrate this with surgery
 //let the icon_state hold an icon preview for now
