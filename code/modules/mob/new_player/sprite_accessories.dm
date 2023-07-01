@@ -1325,7 +1325,7 @@
 	icon_state = "tatt1"
 	species_allowed = list("Human")
 
-/datum/sprite_accessory/Extra_style
+/datum/sprite_accessory/moth_wings
 	species_allowed = list("Human")
 	do_colouration = FALSE
 	icon = 'icons/mob/Human_face.dmi'
@@ -1333,11 +1333,6 @@
 /datum/sprite_accessory/moth_wings/broken_man
 	name = "Broken Man"
 	icon_state = "extra_brokenman"
-
-/datum/sprite_accessory/moth_wings
-	species_allowed = list("Moth")
-	do_colouration = FALSE
-	icon = 'icons/mob/species/moth/wings.dmi'
 
 /datum/sprite_accessory/moth_wings/plain
 	name = "Plain"
