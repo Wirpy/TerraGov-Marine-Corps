@@ -50,8 +50,8 @@
 		if(!initial(module.item_type.icon_state))
 			continue
 		var/second_icon_state = initial(module.item_type.icon_state) + (module.variant ? "_[GLOB.loadout_variant_keys[module.variant]]" : "")
-		if(initial(module.item_type.greyscale_config))
-			icon_to_convert = icon(SSgreyscale.GetColoredIconByType(initial(module.item_type.greyscale_config), module.colors),  second_icon_state, dir = SOUTH)
+		if(initial(module.greyscale_config))
+			icon_to_convert = icon(SSgreyscale.GetColoredIconByType(initial(module.greyscale_config), module.colors),  second_icon_state, dir = SOUTH)
 		else
 			icon_to_convert = icon(initial(module.item_type.icon), second_icon_state, SOUTH)
 
@@ -125,8 +125,8 @@
 		if(!initial(module.item_type.icon_state))
 			continue
 		var/second_icon_state = initial(module.item_type.icon_state) + (module.variant ? "_[GLOB.loadout_variant_keys[module.variant]]" : "")
-		if(initial(module.item_type.greyscale_config))
-			icon_to_convert = icon(SSgreyscale.GetColoredIconByType(initial(module.item_type.greyscale_config), module.colors),  second_icon_state, dir = SOUTH)
+		if(initial(module.greyscale_config))
+			icon_to_convert = icon(SSgreyscale.GetColoredIconByType(initial(module.greyscale_config), module.colors),  second_icon_state, dir = SOUTH)
 		else
 			icon_to_convert = icon(initial(module.item_type.icon), second_icon_state, SOUTH)
 
