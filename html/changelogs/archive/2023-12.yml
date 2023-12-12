@@ -56,3 +56,77 @@
   - rscadd: Secondary hyperscale colour layer for armour pieces (Currently only on
       legs and helmet)
   - qol: Hardsuit vending tab
+2023-12-04:
+  Lumipharon:
+  - code_imp: Standardised obj damage calcs to mob and turf damage calcs
+  - rscadd: Added a stamina skill to boost stamina regen and stamina regen delay time.
+      Currently not available to normal roles
+  - balance: high weapon skills as seen on PMC and the like now provide a 5% damage
+      boost per level with the appropriate weaponry
+  - balance: Melee skill now adds +15% damage instead of 30% with melee weapons
+  - balance: Removed some old MP CQC interactions
+  - balance: Captain no longer has elite skills in basically every category
+  - balance: Sectoids are no longer melee masters
+  ivanmixo:
+  - bugfix: Fixed defender being able to move dead bodies
+2023-12-05:
+  Lumipharon:
+  - bugfix: fixed mechs being impossible to enter
+  TiviPlus:
+  - rscadd: Added squad transfer tablet for SLs
+  Wirpy:
+  - bugfix: fixes the syndie helmets having a missing iconsprite + storage
+  - bugfix: 'mountbatten being inverted
+
+      :cl:'
+2023-12-07:
+  MiniMeatwad:
+  - balance: Queen egg laying added
+2023-12-08:
+  Lumipharon:
+  - bugfix: fixed detpacks not working on structures, and being weaker than expected
+      on solid turfs
+  Wisemonster:
+  - balance: C4 (Plastique explosives) no longer requires a multitool to disarm.
+  coldironwarrior:
+  - balance: the SG153 spotting rifle's maximum bullet range has been increased to
+      match the range of the SG62 it's attached to
+  ivanmixo:
+  - code_imp: Deleted some rogue commas
+2023-12-09:
+  DeltaFire15:
+  - balance: Antenna helmet modules have exchanged their ability to project a req
+      drop beacon for improving caves communications (once configured)
+2023-12-10:
+  DeltaFire15:
+  - balance: Banished solid objects now push out any living beings on their return
+      tile (if possible) before returning.
+  Lumipharon:
+  - balance: Psycrush now only targets turfs
+  - balance: Psylance and Psyblast will now fail to cast if their target moves off
+      screen
+  Wisemonster:
+  - spellcheck: Changed the acronym for the hypervene hypo to Hy
+  ivanmixo:
+  - code_imp: Killed get_contents
+2023-12-11:
+  Arturlang:
+  - bugfix: Widow's spiderlings will no longer just constantly stop attacking their
+      target, now the widow will have to move away from the spiderlings and only then
+      they will stop
+  Pariah919:
+  - rscadd: Added new deployable HMG to CLF Specialist.
+  Wisemonster:
+  - rscadd: Orders will now show what job sent them in the orders' header.
+  Xander3359:
+  - imagedel: deleted cyborg.dmi
+  - code_imp: Delete unused ui defines
+  coldironwarrior:
+  - bugfix: fixes mountbatten pink again (maybe for real)
+2023-12-12:
+  Helg2:
+  - bugfix: Snatch now spends plasma only on success.
+  Lumipharon:
+  - rscadd: Sectoids have been reported displaying powerful new psionic abilities
+      in this sector
+  - balance: Sectoid base hp reduced to 80
