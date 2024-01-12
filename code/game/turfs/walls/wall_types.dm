@@ -380,6 +380,12 @@
 	walltype = "metal"
 	base_icon_state = "metal"
 
+/turf/closed/wall/prison/wall_test
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test2.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
 
 
 //Wood wall
@@ -459,4 +465,5 @@
 		'icons/turf/walls/siding_red_1.dmi',
 		'icons/turf/walls/siding_red_2.dmi',
 		'icons/turf/walls/siding_red_3.dmi',
+
 	)
