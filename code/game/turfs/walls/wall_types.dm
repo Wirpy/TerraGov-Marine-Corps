@@ -387,6 +387,54 @@
 	walltype = "metal"
 	base_icon_state = "metal"
 
+/turf/closed/wall/prison/wall_test1
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test1.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test3
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test3.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test4
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test4.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test5
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test5.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test6
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test6.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test7
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test7.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
+
+/turf/closed/wall/prison/wall_test8
+	name = "wirpy test wall"
+	icon = 'icons/turf/walls/wirpy_test8.dmi'
+	icon_state = "metal-0"
+	walltype = "metal"
+	base_icon_state = "metal"
 
 //Wood wall
 
