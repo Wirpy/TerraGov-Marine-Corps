@@ -1140,6 +1140,3 @@
 /turf/open/floor/test/grill1
 	icon = '\icons\turf\floors\test.dmi'
 	icon_state = "grill1"
-/turf/open/floor/test/standard
-	icon = '\icons\turf\floors\test.dmi'
-	icon_state = "standard_floor"
