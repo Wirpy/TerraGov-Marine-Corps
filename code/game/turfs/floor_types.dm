@@ -1136,7 +1136,7 @@
 
 /turf/open/floor/test
 	icon = 'icons/turf/test.dmi'
-	icon_state = "default"
+	icon_state = "floor"
 
 /turf/open/floor/test/grill1
 	icon = '\icons\turf\floors\test.dmi'
