@@ -1135,8 +1135,9 @@
 	icon_state = "industrial"
 
 /turf/open/floor/test
-	icon = '\icons\turf\floors\test.dmi'
+	icon = 'icons/turf/test.dmi'
 	icon_state = "default"
+
 /turf/open/floor/test/grill1
 	icon = '\icons\turf\floors\test.dmi'
 	icon_state = "grill1"
